@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	font-family: 'Roboto', sans-serif;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* general styling ==============================================================================*/
+
+*. *::after,
+*::before {
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 1.5;
+}
+
+
+
+
+.flex-r {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.flex-c {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	font-size: 14px;
+	color: black;
+}
+
+/* styling header section ------------------------------------------------------------ */
+
+.header {
+	padding: 25px 0;
+}
+
+.navbar {
+	justify-content: space-around;
+}
+
+.navbar .brand-icon a {
+	text-transform: uppercase;
+	font-size: 28px;
+	font-weight: bold;
+	letter-spacing: 1;
+}
+
+.brand-icon img {
+	width: 40px;
+	margin-right: 5px;
+}
+
+.navbar nav a {
+	text-transform: capitalize;
+	margin-left: 50px;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.navbar nav a:hover {
+	color: #69C6BA;
+}
+
+/* styling main  */
+
+.main {
+	background-color: #E6E6E6;
+}
+
+/* styling hero section----------------------------------------------------------------- */
+
+.hero {
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(assets/banner.jpg);
+	background-repeat: no-repeat;
+	height: 565px;
+	background-size: contain;
+	justify-content: flex-start;
+
+
+
+
+}
+
+.hero h1 {
+	text-transform: uppercase;
+	font-size: 42px;
+	color: white;
+	margin-top: 70px;
+	margin-bottom: 5px;
+
+}
+
+.hero .dot {
+	text-align: center;
+	border: none;
+	width: 6px;
+	height: 6px;
+	margin: 3px 0;
+	background-color: white;
+	border-radius: 3px;
+}
+
+.hero .middle-dot {
+	width: 9px;
+	height: 9px;
+	border-radius: 5px;
+}
+
+.hero h5 {
+	text-transform: capitalize;
+	font-size: 18px;
+	color: rgb(226, 226, 226);
+	word-spacing: 2px;
+	font-weight: normal;
+	padding: 5px 0 15px 0;
+}
+
+.hero .down-chevron {
+	background-color: #69C6BA;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+}
+
+.hero .fa {
+	color: white;
+
+}
+
+.hero-form {
+	background-color: #fefefe;
+	
+	flex: 0 1 50%;
+
+
+
+}
+
+.col-1 {
+	padding: 10px;
+	height: 200px;
+	justify-content: flex-start;
+	flex: 0 1 50%;
+	align-items: flex-start;
+}
+
+.col-2 {
+	flex-basis: 45%;
+	height: 200px;
+	justify-content: flex-start;
+	padding: 10px 30px;
+	align-items: stretch;
+	flex: 0 1 50%;
+}
+
+.btn {
+	padding: 10px 20px;
+	background-color: #69C6BA;
+	color: white;
+	text-transform: uppercase;
+	font-size: 10px;
+	text-align: center;
+}
