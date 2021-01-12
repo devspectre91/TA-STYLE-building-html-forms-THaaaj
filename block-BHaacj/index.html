@@ -1,22 +1,73 @@
-- Create a page according to the layout shown below.
-
-![Building HTML forms Assignment level 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/building-html-forms/ex-2.png)
-
-- Using CSS resets is necessary.
-
-- Use semantic tags and keep the nesting and indentation proper.
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 2 | Journey</title>
-    <script src="https://use.fontawesome.com/41be6dfa6e.js"></script>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment 2 | Journey</title>
+  <script src="https://use.fontawesome.com/41be6dfa6e.js"></script>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    
+
+  <header class="header">
+    <div class="flex-r container navbar">
+      <div class="brand-icon flex-center">
+        <img src="assets/logo.png" alt="journey-logo" /><a href="index.html">journey</a>
+      </div>
+      <nav class="flex-r">
+        <a href="">home</a>
+        <a href="">top destinations</a>
+        <a href="">recommended places</a>
+        <a href="">contact us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <section class="hero flex-c">
+        <h1>let's begin</h1>
+        <div class="dot"></div>
+        <div class="dot middle-dot"></div>
+        <div class="dot"></div>
+        <h5>We assist you to choose the best.</h5>
+        <div class="down-chevron flex-center"><i class="fa fa-chevron-down" aria-hidden="true"></i></div>
+        <section class="hero-form flex-r">
+          <fieldset class="flex-c col-1">
+            <label for="destination">Choose your destination</label>
+            <input type="text" id="destination" placeholder="Type your destination">
+            <div class="flex-r">
+              <div class="flex-c">
+                <label for="destination">Choose your destination</label>
+                <input type="text" name="destination" placeholder="Type your destination"></div>
+              <div class="flex-c">
+                <label for="destination">Choose your destination</label>
+                <input type="text" name="destination" placeholder="Type your destination"></div>
+            </div>
+          </fieldset>
+          <fieldset class="flex-c col-2">
+            <div class="flex-r">
+              <div class="flex-c">
+                <label for="destination">Choose your destination</label>
+                <input type="text" name="destination" placeholder="Type your destination"></div>
+              <div class="flex-c">
+                <label for="destination">Choose your destination</label>
+                <input type="text" name="destination" placeholder="Type your destination"></div>
+              <div class="flex-c">
+                <label for="destination">Choose your destination</label>
+                <input type="text" name="destination" placeholder="Type your destination"></div>
+            </div>
+            <div class="btn btn-primary">check availability</div>
+           
+          </fieldset>
+        </section>
+      </section>
+
+    </div>
+  </main>
+
 </body>
+
 </html>
