@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment 2 | Journey</title>
+  <script src="https://use.fontawesome.com/41be6dfa6e.js"></script>
+  <link rel="stylesheet" href="assets/stylesheet/styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="flex-r container navbar">
+      <div class="brand-icon flex-center">
+        <img src="assets/media/logo.png" alt="journey-logo" /><a href="index.html">journey</a>
+      </div>
+      <nav class="flex-r">
+        <a href="">home</a>
+        <a href="">top destinations</a>
+        <a href="">recommended places</a>
+        <a href="">contact us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <section class="hero flex-c">
+        <h1>let's begin</h1>
+        <div class="dot"></div>
+        <div class="dot middle-dot"></div>
+        <div class="dot"></div>
+        <h5>We assist you to choose the best.</h5>
+        <div class="down-chevron flex-center">
+          <a href=""> <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+        </div>
+        <form class="hero-form flex-r" action="">
+          <fieldset class="col-1 flex-c">
+            <div>
+              <label for="destination">Choose your destination</label><br />
+              <input type="text" id="destination" placeholder="Type your destination..." />
+            </div>
+            <div class="flex-r">
+              <div class="flex-s">
+                <label for="check-in">check in date</label>
+                <input type="text" id="check-in" placeholder="Check In" />
+              </div>
+              <div class="flex-s">
+                <label for="check-out">check out date</label>
+                <input type="text" id="check-out" placeholder="Check Out" />
+              </div>
+            </div>
+          </fieldset>
+          <fieldset class="col-2 flex-c">
+            <div class="flex-r">
+              <div class="flex-s">
+                <label for="rooms">How many rooms?</label>
+                <input type="text" id="rooms" placeholder="1 Room" />
+              </div>
+              <div class="flex-s">
+                <label for="adult">Adult</label>
+                <select name="adults" id="adults">
+                  <option value="">0</option>
+                  <option value="" selected>1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                </select>
+              </div>
+              <div class="flex-s">
+                <label for="Children">Children</label>
+                <select name="adults" id="adults">
+                  <option value="" selected>0</option>
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                </select>
+              </div>
+            </div>
+            <a href="" class="btn-primary">CHECK AVAILABILITY</a>
+          </fieldset>
+        </form>
+      </section>
+      <section class="hero-sub flex-c">
+        <article>
+          <h3>your <strong>journey</strong> is our priority</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
+            molestias esse laborum, cum dolorem quas, veritatis consequuntur
+            similique natus est quis, distinctio praesentium facere quasi
+            ullam blanditiis consectetur aperiam pariatur.
+          </p>
+        </article>
+        <a href="" class="btn-primary btn-explore">CONTINUE EXPLORE</a>
+      </section>
+      <section class="places">
+        <div class="img-container flex-c">
+          <div class="arrow-box">
+            <i class="fa fa-chevron-circle-left" aria-hidden="true"></i><i class="fa fa-chevron-circle-right"
+              aria-hidden="true"></i>
+          </div>
+          <div class="arrow-box arrow-middle">
+            <i class="fa fa-chevron-circle-left" aria-hidden="true"></i><i class="fa fa-chevron-circle-right"
+              aria-hidden="true"></i>
+          </div>
+          <div class="arrow-box arrow-bottom">
+            <i class="fa fa-chevron-circle-left" aria-hidden="true"></i><i class="fa fa-chevron-circle-right"
+              aria-hidden="true"></i>
+          </div>
+          <img src="assets/media/tm-img-01.jpg" width="500px" alt="" />
+          <article class="card card-top">
+            <span>Europe's most visited places</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
+              molestias esse laborum, cum dolorem quas, veritatis consequuntur
+              similique natus est quis, distinctio praesentium facere quasi
+              ullam blanditiis consectetur aperiam pariatur.
+            </p>
+            <a href="" class="btn-secondary">continue reading</a>
+          </article>
+          <img class="middle-image" src="assets/media/tm-img-02.jpg" width="500px" alt="" />
+          <article class="card card-middle">
+            <span>Europe's most visited places</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
+              molestias esse laborum, cum dolorem quas, veritatis consequuntur
+              similique natus est quis, distinctio praesentium facere quasi
+              ullam blanditiis consectetur aperiam pariatur.
+            </p>
+            <a href="" class="btn-secondary">continue reading</a>
+          </article>
+          <img src="assets/media/tm-img-03.jpg" width="500px" alt="" />
+          <article class="card card-bottom">
+            <span>Europe's most visited places</span>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
+              molestias esse laborum, cum dolorem quas, veritatis consequuntur
+              similique natus est quis, distinctio praesentium facere quasi
+              ullam blanditiis consectetur aperiam pariatur.
+            </p>
+            <a href="" class="btn-secondary">continue reading</a>
+          </article>
+        </div>
+      </section>
+      <section class="countries flex-r">
+        <div class="flex-c country-img">
+          <img src="assets/media/north-america.png" alt="north-america" /><span>North America</span>
+        </div>
+
+        <div class="flex-c country-img">
+          <img src="assets/media/south-america.png" alt="south-america" /><span>South America</span>
+        </div>
+        <div class="flex-c country-img">
+          <img src="assets/media/europe.png" alt="europe" /><span>Europe</span>
+        </div>
+        <div class="flex-c country-img selected-place">
+          <img src="assets/media/asia.png" alt="asia" /><span>Asia</span>
+        </div>
+        <div class="flex-c country-img">
+          <img src="assets/media/africa.png" alt="africa" /><span>Africa</span>
+        </div>
+        <div class="flex-c country-img">
+          <img src="assets/media/australia.png" alt="australia" /><span>Australia</span>
+        </div>
+        <div class="flex-c country-img">
+          <img src="assets/media/antartica.png" alt="antartica" /><span>Antarctica</span>
+        </div>
+      </section>
+
+      <section class="prices">
+        <div class="hotel-card flex-r">
+          <img src="assets/media/tm-img-06.jpg" alt="asia-resort-hotel">
+          <div class="flex-c hotel-card-content">
+            <h5>asia resort hotel</h5>
+            <h6>singapore</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, qui neque tempora iusto culpa</p>
+          </div>
+          <div class="flex-c card-price"><span>$440</span><a href="">continue reading</a></div>
+
+        </div>
+        <div class="hotel-card flex-r">
+          <img src="assets/media/tm-img-07.jpg" alt="asia-resort-hotel">
+          <div class="flex-c hotel-card-content">
+            <h5>nallam eget est a niel</h5>
+            <h6>yangon, myanmar</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, qui neque tempora iusto culpa</p>
+          </div>
+          <div class="flex-c card-price"><span>$440</span><a href="">continue reading</a></div>
+
+        </div>
+        <div class="hotel-card flex-r">
+          <img src="assets/media/tm-img-05.jpg" alt="asia-resort-hotel">
+          <div class="flex-c hotel-card-content">
+            <h5>proin interdam collarpor</h5>
+            <h6>bangkok, thailand</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, qui neque tempora iusto culpa</p>
+          </div>
+          <div class="flex-c card-price"><span>$440</span><a href="">continue reading</a></div>
+
+        </div>
+        <div class="hotel-card flex-r">
+          <img src="assets/media/tm-img-04.jpg" alt="asia-resort-hotel">
+          <div class="flex-c hotel-card-content">
+            <h5>lorem ipsum dolor sit</h5>
+            <h6>vientiane, laos</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, qui neque tempora iusto culpa</p>
+          </div>
+          <div class="flex-c card-price"><span>$440</span><a href="">continue reading</a></div>
+
+        </div>
+
+        <a class="btn-primary btn-places" href="">show more places</a>
+      </section>
+
+      <section class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d461735.82760744705!2d82.71724463281248!3d25.293748000000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e31f181042751%3A0x21c51ada6e27583!2sPMO%20office!5e0!3m2!1sen!2sin!4v1610896274211!5m2!1sen!2sin"
+          width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe>
+
+        <form action="">
+          <fieldset class="flex-c form">
+            <div class="flex-r"><input type="text" placeholder="Name">
+              <input type="text" placeholder="Email"></div>
+            <input type="text" placeholder="Subject">
+            <textarea name="message" id="" cols="25" rows="6" placeholder="Message"></textarea>
+            <a class="btn-primary">send message now</a>
+          </fieldset>
+        </form>
+      </section>
+    </div>
+  </main>
+  <footer class="footer container">
+    <p>copyright &copy; 2020 Your company. Designed by template mo</p>
+  </footer>
+</body>
+
+</html>
